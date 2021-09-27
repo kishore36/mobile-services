@@ -1,0 +1,98 @@
+.cab-service{
+    position:fixed;
+    background: #FFFFFF;
+    padding:10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.cab-service h6{
+    padding-top: 2px;
+}
+.fa-angle-left{
+    color:#BDBDBD;
+    font-size:20px;
+    padding-right:8px;
+}
+.nav li{
+    margin-top:50px;
+}
+.tab-view li a{
+    text-decoration: none;
+    color: #828282;
+    font-size:14px;
+}
+.tab-view li a:hover {
+    border-bottom: 1px solid #269DD1!important;
+    color: #269DD1 !important;
+    font-weight:600;
+}
+.cab-details,.choose-date h6{
+	color: #4F4F4F;
+}
+.choose-date h6{
+    font-size:15px;
+}
+.calendar{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.calendar span{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.calendar strong{
+    font-weight: 600;
+    color: #333333;
+    font-size: 13px;
+}
+.location img{
+    height:100%;
+    width:4%;
+}
+.request button{
+    background: #27AE60;
+    box-shadow: 0px 2px 16px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px;
+    color: #fff;
+    font-size:15px;
+}
+
+.owl-carousel{
+	display: flex;
+    overflow-x: scroll;
+}
+.cab-details h6{
+	margin-bottom:0px;
+	line-height: 12px;
+}
+.cab-details span{
+	   font-size: 13px;
+}
+.cab img{
+	width: 110px;
+    height: 80px;
+    object-fit: cover;
+}
+.item{
+	background: #F2F2F2;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width:45%;
+}
+.owl-carousel .active{
+	background: #FFFFFF;
+    border: 1px solid #269DD1;
+}
+
+
+@media (min-width: 523px) and (max-width: 1440px){
+	.location img{
+	    width:2%;
+	}
+}
